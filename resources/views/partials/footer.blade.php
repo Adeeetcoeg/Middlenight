@@ -18,12 +18,11 @@
                 <div class="col-lg-2 col-md-6 col-12">
                     <!-- Single Widget -->
                     <div class="single-footer links">
-                        <h4>Information</h4>
+                        <h4>Informasi</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Hubungi Kami</a></li>
                             <li><a href="#">Faq</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Syarat & Ketentuan</a></li>
                             <li><a href="#">Help</a></li>
                         </ul>
                     </div>
@@ -32,13 +31,12 @@
                 <div class="col-lg-2 col-md-6 col-12">
                     <!-- Single Widget -->
                     <div class="single-footer links">
-                        <h4>Customer Service</h4>
+                        <h4>Pelayanan Pelanggan</h4>
                         <ul>
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Money-back</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Metode Pembayaran</a></li>
+                            <li><a href="#">Memiliki Kendala</a></li>
+                            <li><a href="#">Kembalikan Barang</a></li>
+                            <li><a href="#">Kebijakan pribadi</a></li>
                         </ul>
                     </div>
                     <!-- End Single Widget -->
@@ -46,13 +44,13 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <!-- Single Widget -->
                     <div class="single-footer social">
-                        <h4>Get In Tuch</h4>
+                        <h4>Tentang Saya</h4>
                         <!-- Single Widget -->
                         <div class="contact">
                             <ul>
                                 <li>Jl.Tegal Ilat No 8</li>
                                 <li>Soreang Bandung</li>
-                                <li>coegpengencuan@gmail.com</li>
+                                <li>Adityaa.nugrohoo007@gmail.com</li>
                                 <li>+6282269962344</li>
                             </ul>
                         </div>
@@ -70,23 +68,5 @@
         </div>
     </div>
     <!-- End Footer Top -->
-    <div class="copyright">
-        <div class="footer">
-            <div class="inner">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <div class="left">
-                            <p>Copyright © 2020 <a href="http://www.wpthemesgrid.com" target="_blank">Coeg ni Bous</a>  -  All Rights Reserved.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="right">
-                            <img src="img/payments.png" alt="#">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </footer>
 <!-- /End Footer Area -->

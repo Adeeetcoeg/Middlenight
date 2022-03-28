@@ -8,6 +8,8 @@ use App\Http\Controllers\LaporanpenjualanController;
 use App\Http\Controllers\PenjualanController;
 use App\Http\Controllers\PesanController;
 use App\Http\Controllers\HistoryController;
+use App\Http\Controllers\PesananDetailController;
+use App\Http\Controllers\BackendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,4 +56,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth','role:admin']], funct
     Route::resource('barang', BarangController::class);
     Route::resource('penjualan', PenjualanController::class);
     Route::resource('laporanpenjualan', laporanPenjualanController::class);
+    Route::get('pesan2', [BackendController::class, 'index']);
+    Route::resource('pesanan_detail', PesananDetailController::class);
 });

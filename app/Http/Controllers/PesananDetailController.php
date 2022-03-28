@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\pesan;
 use App\Models\pesanan_detail;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,8 @@ class PesananDetailController extends Controller
      */
     public function index()
     {
-        //
+        $pesanan_detail = pesanan_detail::with('pesan')->get();
+        return view('pesanan_detail.index', compact('pesanan_detail'));
     }
 
     /**
@@ -44,9 +46,11 @@ class PesananDetailController extends Controller
      * @param  \App\Models\pesanan_detail  $pesanan_detail
      * @return \Illuminate\Http\Response
      */
-    public function show(pesanan_detail $pesanan_detail)
+    public function show($id)
     {
-        //
+        $pesanan_detail = pesanan_detail::findOrFail($id);
+        $pesan = pesan::all();
+        return view('pesanan_detail.show', compact('pesanan_detail', 'pesan'));
     }
 
     /**

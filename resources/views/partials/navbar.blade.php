@@ -4,12 +4,12 @@
     <div class="topbar">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-12">
+                <div class="col-lg-4 col-md-10 col-10">
                     <!-- Top Left -->
                     <div class="top-left">
                         <ul class="list-main">
-                            <li><i class="ti-headphone-alt"></i> +6282269962344</li>
-                            <li><i class="ti-email"></i> Coegpengencuan@gmail.com</li>
+                            <li> <i class="ti-headphone-alt"></i> +6282269962344</li>
+                            <li><i class="ti-email"></i> Adityaa.nugrohoo007@gmail.com</li>
                         </ul>
                     </div>
                     <!--/ End Top Left -->
@@ -30,7 +30,7 @@
     <div class="middle-inner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-12">
+                <div class="col-lg-2 col-md-2 col-8">
                     <!-- Logo -->
                     <div class="logo">
                         <a href="/"><img src="{{ asset('img/logo.jpg') }}" alt="logo"></a>
@@ -61,7 +61,7 @@
                                 @endforeach
                             </select> --}}
                             <form>
-                                <input name="search" placeholder="Search Products Here....." type="search">
+                                <input name="search" placeholder="Cari Produk Disini....." type="search">
                                 <button class="btnn"><i class="ti-search"></i></button>
                             </form>
                         </div>
@@ -81,7 +81,7 @@
                             @endif
                         @else
                         <div class="sinlge-bar">
-                       <a href="{{ route('logout') }}" class="single-icon"><i class="fa fa-sign-in" aria-hidden="true"onclick="event.preventDefault();
+                       <a href="{{ route('logout') }}" class="single-icon"><i class="fa fa-sign-out" aria-hidden="true"onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();"></i></a>
                      <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                          @csrf
@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="all-category">
-                            <h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>HOME</h3>
+                            <h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>Beranda</h3>
                         </div>
                     </div>
                     <div class="col-lg-9 col-12">
@@ -139,15 +139,15 @@
                                 <div class="navbar-collapse">
                                     <div class="nav-inner">
                                         <ul class="nav main-menu menu navbar-nav">
-                                                <li><a href="#">Product</a></li>
-                                                <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
+                                                <li><a href="#">Produk</a></li>
+                                                <li><a href="#">Belanja<i class="ti-angle-down"></i><span class="new">Baru</span></a>
                                                     <ul class="dropdown">
                                                         <li><a href="cart.html">Keranjang</a></li>
                                                         <li><a href="checkout.html">Checkout</a></li>
                                                     </ul>
                                                 </li>
                                                 </li>
-                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#">Hubungi Kami</a></li>
                                             </ul>
                                     </div>
                                 </div>

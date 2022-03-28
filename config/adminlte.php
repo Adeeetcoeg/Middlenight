@@ -251,6 +251,14 @@ return [
             'text'        => 'Laporan Penjualan',
             'url'         => 'admin/laporanpenjualan',
         ],
+        [
+            'text' => 'Pesan',
+            'url' => 'admin/pesan2',
+        ],
+        [
+            'text' => 'Pesanan',
+            'url' => 'admin/pesanan_detail',
+        ],
 
 
     ],
